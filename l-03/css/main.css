@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Forum|Pangolin&display=swap");
+
+body {
+  margin: 15%;
+  font-family: "Forum", cursive;
+}
+
+.rectangle {
+  height: 100px;
+  width: 100px;
+  color: white;
+  background-color: red;
+  font-family: "Pangolin", cursive;
+}
+
+.rectangle:hover {
+  background-color: black;
+  height: 50px;
+  width: 200px;
+}
