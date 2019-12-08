@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat|Oswald|Pacifico&display=swap");
+
+body {
+  font-size: 1em;
+}
+.main-page {
+  margin: 1% 10%;
+}
+
+h1,
+h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Pacifico", cursive;
+}
+p {
+  font-family: "Caveat", cursive;
+}
+
+.bigg {
+  font-style: italic;
+  font-weight: bold;
+}
