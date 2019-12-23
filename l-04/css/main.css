@@ -1,0 +1,23 @@
+.app-conteiner {
+  width: 640px;
+  padding: 3em;
+  margin: auto;
+}
+
+.app-redline {
+  height: 2em;
+  background-color: crimson;
+  border-radius: 2em 0.5em 2em 0.5em;
+  display: block;
+}
+
+h1 {
+  color: aliceblue;
+  padding: 0.2em;
+  /* 
+  border: 1px dashed darkblue; 
+  */
+  border-radius: 0.3em;
+  text-shadow: 1px 1px royalblue;
+  text-align: right;
+}
