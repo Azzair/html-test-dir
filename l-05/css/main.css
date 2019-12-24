@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya|Alegreya+SC|Caveat|EB+Garamond|Fira+Mono|Kurale|Lobster|Lora|Merriweather|Noto+Serif|Nunito|Open+Sans|Open+Sans+Condensed:300|Oswald|Pacifico|Pangolin|Prata|Roboto+Slab|Source+Sans+Pro&display=swap");
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Caveat', cursive;
+font-family: 'Alegreya', serif;
+font-family: 'Prata', serif;
+font-family: 'Pangolin', cursive;
+font-family: 'Fira Mono', monospace;
+font-family: 'Alegreya SC', serif;
+font-family: 'Kurale', serif;
+*/
+.app-main-font {
+  font-family: "Kurale", serif;
+}
+
+.app-conteiner {
+  width: 840px;
+  margin: auto;
+  padding: 5px;
+}
+
+.app-border {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(206, 206, 206);
+  padding: 0.1rem;
+  padding-left: 1rem;
+  user-select: none;
+  color: white;
+}
+.app-border:hover {
+  box-shadow: 5px 5px 5px rgb(129, 129, 129);
+}
+
+h1 {
+  text-shadow: rgb(0, 0, 0) 1px 1px 10px;
+  margin: auto;
+  letter-spacing: 0px;
+}
+
+span {
+  font-weight: bold;
+  font-style: italic;
+  lin
+}
+
+.app-font-1 {
+  font-family: "Open Sans", sans-serif;
+}
+.app-font-2 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.app-font-3 {
+  font-family: "Oswald", sans-serif;
+}
+.app-font-4 {
+  font-family: "Roboto Slab", serif;
+}
+.app-font-5 {
+  font-family: "Merriweather", serif;
+}
+.app-font-6 {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.app-font-7 {
+  font-family: "Nunito", sans-serif;
+}
+.app-font-8 {
+  font-family: "Lora", serif;
+}
+.app-font-9 {
+  font-family: "Noto Serif", serif;
+}
+.app-font-10 {
+  font-family: "Lobster", cursive;
+}
+.app-font-11 {
+  font-family: "Pacifico", cursive;
+}
+.app-font-12 {
+  font-family: "EB Garamond", serif;
+}
+.app-font-13 {
+  font-family: "Caveat", cursive;
+}
+.app-font-14 {
+  font-family: "Alegreya", serif;
+}
+.app-font-15 {
+  font-family: "Prata", serif;
+}
+.app-font-16 {
+  font-family: "Pangolin", cursive;
+}
+.app-font-17 {
+  font-family: "Fira Mono", monospace;
+}
+.app-font-18 {
+  font-family: "Alegreya SC", serif;
+}
+.app-font-19 {
+  font-family: "Kurale", serif;
+}
