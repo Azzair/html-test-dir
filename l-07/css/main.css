@@ -6,7 +6,8 @@
   font-family: "Lora", serif;
 }
 body {
-  background: no-repeat center/150% url(../new-years-eve1.jpg);
+  background: no-repeat center url(../new-years-eve1.jpg);
+  background-size: cover;
   background-attachment: fixed;
   background-blend-mode: hard-light;
 }
@@ -16,7 +17,9 @@ body {
   left: 100px;
   right: 100px;
   bottom: 80px;
+  /*
   background: no-repeat center/150% url(../new-years-eve1.jpg);
+  */
   background-attachment: fixed;
   display: flex;
   justify-content: center;
