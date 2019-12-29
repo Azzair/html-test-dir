@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
+}
+body {
+  background: no-repeat center/150% url(../new-years-eve1.jpg);
+  background-attachment: fixed;
+  background-blend-mode: hard-light;
+}
+.conteiner {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  right: 100px;
+  bottom: 80px;
+  background: no-repeat center/150% url(../new-years-eve1.jpg);
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 5px 20px #000000bb, 0px 10px 40px #000000bb;
+}
+.conteiner h2 {
+  text-align: center;
+  font-size: 3em;
+  line-height: 1.8em;
+  color: #fff;
+  text-shadow: 0 0 3px rgb(197, 197, 197), 0 0 7px rgb(197, 197, 197),
+    0 0 15px white;
+  margin-top: -20px;
+}
+
+.conteiner h2 span {
+  display: block;
+  font-weight: 800;
+  letter-spacing: 6px;
+  font-size: 2em;
+  text-shadow: 0 0 3px rgb(255, 151, 151), 0 0 7px rgb(197, 197, 197),
+    0 0 15px rgb(255, 0, 0);
+}
+.countdown {
+  display: flex;
+  margin-top: 40px;
+}
+.countdown div {
+  color: white;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background: #333;
+  margin: 0 10px;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.countdown div::before {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: #fffb05;
+  color: #333;
+  font-size: 0.2em;
+  line-height: 40px;
+}
+.countdown #day::before {
+  content: "Дні";
+}
+.countdown #hour::before {
+  content: "Години";
+}
+.countdown #minute::before {
+  content: "Хвилини";
+}
+.countdown #second::before {
+  content: "Секунди";
+}
